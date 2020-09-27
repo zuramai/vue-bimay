@@ -7,8 +7,50 @@ Vue.use(VueRouter)
 const routes = [
   {
     path: '/',
-    name: 'Home',
-    component: Home
+    component: () => import('./../views/layouts/Master.vue'),
+    children: [
+      {
+        path: '',
+        name: 'dashboard',
+        component: () => import('./../views/Dashboard.vue')
+      },
+      {
+        path: '/quiz',
+        component: () => import('./../views/Dashboard.vue')
+      },
+      {
+        path: '/news',
+        component: () => import('./../views/Dashboard.vue')
+      },
+      {
+        path: '/courses',
+        component: () => import('./../views/Dashboard.vue')
+      },
+      {
+        path: '/learning',
+        component: () => import('./../views/Dashboard.vue')
+      },
+      {
+        path: '/newspaper',
+        component: () => import('./../views/Dashboard.vue')
+      },
+      {
+        path: '/enrichment-program',
+        component: () => import('./../views/Dashboard.vue')
+      },
+      {
+        path: '/development-program',
+        component: () => import('./../views/Dashboard.vue')
+      },
+      {
+        path: '/event-list',
+        component: () => import('./../views/Dashboard.vue')
+      },
+      {
+        path: '/student-services',
+        component: () => import('./../views/Dashboard.vue')
+      },
+    ]
   },
   {
     path: '/about',

@@ -1,0 +1,74 @@
+[
+    {
+        "text": "Dashboard",
+        "icon": "house",
+        "url": "/"
+    },
+    {
+        "text": "Student Do Quiz",
+        "icon": "calendar4-week",
+        "url": "/quiz"
+    },
+    {
+        "text": "News",
+        "icon": "card-text",
+        "url": "/news"
+    },
+    {
+        "text": "Learning",
+        "type": "title"
+    },
+    {
+        "text": "Courses",
+        "icon": "book",
+        "url": "/courses"
+    },
+    {
+        "text": "Learning",
+        "icon": "book-half",
+        "url": "learning"
+    },
+    {
+        "text": "Forum",
+        "icon": "house",
+        "url": "/newspaper"
+    },
+    {
+        "text": "Programs",
+        "type": "title"
+    },
+    {
+        "text": "Enrichment Program",
+        "icon": "award-fill",
+        "url": "/enrichment-program"
+    },
+    {
+        "text": "Development Program",
+        "icon": "house",
+        "url": "/development-program"
+    },
+    {
+        "text": "Mentoring Program",
+        "icon": "house",
+        "url": "/mentoring-program"
+    },
+    {
+        "text": "Event List",
+        "icon": "calendar-event",
+        "url": "/event-list"
+    },
+    {
+        "text": "Support",
+        "type": "title"
+    },
+    {
+        "text": "Student Services",
+        "icon": "file-earmark-person",
+        "url": "/student-services"
+    },
+    {
+        "text": "Feedback",
+        "icon": "file",
+        "url": "/student-services"
+    }
+]

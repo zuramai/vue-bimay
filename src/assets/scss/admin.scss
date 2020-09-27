@@ -1,0 +1,49 @@
+@import 'variables';
+@import 'icons';
+@import 'fonts';
+
+/*
+
+Table of contents
+
+1. Layout
+  1.1 Sidebar
+  1.2 Navbar
+2. Components
+  2.1 Card
+  2.2 Button
+3. Plugins
+  3.1 Nprogress
+4. Responsive
+*/
+
+/* 1. Layout */
+@import './custom/structure/layout-admin';
+@import './custom/miscellaneous';
+/* 1.1 Sidebar */
+@import './components/sidebar';
+/* 1.1 Navbar */
+@import './components/navbar-admin';
+
+/* 2.1 Alert */
+@import './components/_alert';
+/* 2.1 Card */
+// @import './components/card';
+/* 2.2 Button */
+// @import './components/button';
+/* 2.3 Table */
+@import './components/table';
+/* 2.4 Badge */
+@import './components/badge';
+@import './components/media';
+@import './components/progress';
+
+
+/* 3.1 Nprogress */
+@import './plugins/progress/nprogress';
+@import "vue-select/src/scss/vue-select.scss";
+
+/* 4. Responsive */
+@import './responsive';
+
+@import './custom/transitions'
